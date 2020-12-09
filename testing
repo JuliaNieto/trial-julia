@@ -1,1 +1,7 @@
-
+import er #we import the package that has stuff in it
+list_name = [] # we creat an empty list 
+  for x in dir(er): # for any item in this list if the target word is any of the items then add the item to the list
+    if 'target_word' in x:
+      list_name.append(x):
+      
+print(sorted(list_name)) # present the list in alphabetical order
